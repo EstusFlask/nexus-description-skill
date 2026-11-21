@@ -1,0 +1,19 @@
+{
+  "name": "nexus-description",
+  "version": "0.1.0",
+  "description": "Create and restyle Nexus Mods descriptions with reference-based layout, readable BBCode, highlighted notices, and live-page verification.",
+  "author": {
+    "name": "EstusFlask",
+    "url": "https://github.com/EstusFlask"
+  },
+  "repository": "https://github.com/EstusFlask/nexus-description-skill",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Nexus Description 排版",
+    "shortDescription": "参考页面整理模组说明，突出重点并核对 Nexus 实际显示",
+    "longDescription": "从目标页面、仓库资料和参考页面提取真实内容与视觉层级，用原生 BBCode 整理双语说明、安装操作和重点公告。按需突出贡献者招募，并在获授权更新页面时核对保存结果、折叠行为与截图。",
+    "developerName": "EstusFlask",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"]
+  }
+}

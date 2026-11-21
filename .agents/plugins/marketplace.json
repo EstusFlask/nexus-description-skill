@@ -1,0 +1,20 @@
+{
+  "name": "nexus-description-skill",
+  "interface": {
+    "displayName": "Nexus Description Skills"
+  },
+  "plugins": [
+    {
+      "name": "nexus-description",
+      "source": {
+        "source": "local",
+        "path": "./plugins/nexus-description"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
